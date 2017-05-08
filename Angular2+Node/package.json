@@ -1,0 +1,12 @@
+{
+  "name": "NodeBackend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node backend.js",
+    "postinstall": "cd frontend && npm install"
+  },
+  "dependencies": {
+    "express": "~4.13.1"
+  }
+}
