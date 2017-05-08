@@ -9,18 +9,18 @@
 ## SetUp
 
 ```sh
-  git clone https://github.com/Maes95/Angular2BackendsSeeds.git
-  cd Angular2+Node
-  npm install
-  cd frontend
-  tsc
+  $ git clone https://github.com/Maes95/Angular2BackendsSeeds.git
+  $ cd Angular2+Node
+  $ npm install
+  $ cd frontend
+  $ tsc
 ```
 
 ## Run
-In Angular2+Node dolder
+In Angular2+Node folder
 
 ```sh
-  npm start
+  $ npm start
 ```
 
 Then, open your browser at http://localhost:8080/
