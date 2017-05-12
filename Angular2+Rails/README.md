@@ -1,24 +1,31 @@
-# README
+# Angular2 + Ruby on Rails Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Prerequisites
 
-Things you may want to cover:
+* node v7.6.0
+* npm v4.1.2
+* tsc v2.2.1
+* ruby 2.4.0
+* rails 5.1.0
 
-* Ruby version
+## SetUp
 
-* System dependencies
+```sh
+  $ git clone https://github.com/Maes95/Angular2BackendsSeeds.git
+  $ cd Angular2+Rails
+  $ bundle install
+  $ cd public
+  $ npm install
+  $ tsc
+```
 
-* Configuration
+*This application does not have database entities, so it does not require a setup of it
 
-* Database creation
+## Run
+In Angular2+Rails folder
 
-* Database initialization
+```sh
+  $ rails s 
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Then, open your browser at http://localhost:3080/
