@@ -6,17 +6,20 @@
     <base href="/">
     <!-- GLOBAL CSS-->
     <link rel="stylesheet" href="/stylesheets/global.css">
-    <!-- ANGULAR 2 - CORE FILES-->
+    <!-- ANGULAR 4 - CORE FILES-->
     <script src="node_modules/core-js/client/shim.min.js"></script>
     <script src="node_modules/zone.js/dist/zone.js"></script>
-    <script src="node_modules/reflect-metadata/Reflect.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
     <script src="systemjs.config.js"></script>
   </head>
   <body>
     <!-- ANGULAR STARTS HERE-->
     <my-app>
-      <p>Loading...</p>
+      <div class="loader">
+        <div class="inner one"></div>
+        <div class="inner two"></div>
+        <div class="inner three"></div>
+      </div>
     </my-app>
   </body>
   <!-- LOAD APP-->
